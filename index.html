@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bazar | Inicio</title>
+  <link rel="shortcut icon" href="assets/icon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <section class="main container-fluid embed-responsive embed-responsive-16by9">
+    <!--<iframe src="https://www.youtube.com/embed/hAzdveRwpAY?autoplay=1" frameborder="0" allowfullscreen></iframe>-->
+    <video class="embed-responsive-item" src="assets/media/vd-back.mp4" autoplay loop></video>
+    <div class="caption row align-items-center justify-content-center">
+      <div class="col-12 text-center">
+        <img class="brand img-fluid" src="assets/blogo.png" alt="Bazar lima">
+        <h2>Abre su coraz&oacute;n</h2>
+      </div>
+      <div class="col-12 buttons-action text-center">
+        <a class="btn hvr-bounce-to-left" href="./views/reserved.html">Reservas</a>
+        <a id="suscribed" class="btn hvr-bounce-to-right" href="#" >Suscríbete</a>
+      </div>
+      <div class="col-12 buttons-social text-center">
+        <a class="hvr-push hvr-underline-from-center facebook" target="_blank" href="https://www.facebook.com/Bazar-877742052272559/?fref=ts"><i class="fa fa-facebook"></i></a>
+        <a class="hvr-push hvr-underline-from-center instagram" target="_blank" href="https://www.instagram.com/bazar.bar/"><i class="fa fa-instagram"></i></a>
+        <a class="hvr-push hvr-underline-from-center youtube" target="_blank" href="https://www.youtube.com/watch?v=W5sRcpdnrCs&feature=youtu.be"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="ymodal" tabindex="-1" role="dialog" aria-labelledby="keymodaltitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form class="" action="./controller/key.php" method="post">
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                <input id="ipass"type="password" name="password" placeholder="Clave de suscripci&oacute;n" autofocus>
+              </div>
+            </div>
+            <button class="btn btn-outline-danger"type="submit" name="button">Ingresar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="js/logic.js" charset="utf-8"></script>
+</body>
+</html>
